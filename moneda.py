@@ -5,7 +5,7 @@ np.random.seed(123)
 
 final_tails = []
 
-for i in range(10000):
+for i in range(1000):
     tails = [0]
     for x in range(10):
         coin = np.random.randint(0, 2)
@@ -14,6 +14,7 @@ for i in range(10000):
 
 plt.hist(final_tails, bins=10)
 plt.show()
+
 
 
 
