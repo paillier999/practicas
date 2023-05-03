@@ -55,3 +55,5 @@ print((miCoche2.arrancar(False)))
 
 miCoche2.estado()
 
+#estudiando la herencia de objetos
+
