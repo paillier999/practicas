@@ -31,6 +31,7 @@ class Furgoneta(Vehiculos):
 
 class Moto(Vehiculos):
     hcaballito = ""
+
     def caballito(self):
         self.hcaballito = "Voy haciendo el caballito"
 
@@ -39,12 +40,13 @@ class Moto(Vehiculos):
               self.enmarca, "\nAcelerando: ", self.acelera, "\nFrenado: ", self.frena, "\n", self.hcaballito)
 
 
-class VElectricos():
-    def __init__(self):
-        self.autonomia=100
+class VElectricos(Vehiculos):
+    def __init__(self, marca, modelo):
+
+        super().__init__(marca, modelo)
+        self.autonomia = 100
 
     def cargarEnergia(self):
-
         self.cargando = True
 
 
@@ -54,7 +56,7 @@ miMoto.caballito()
 
 miMoto.estado()
 
-miFurgoneta=Furgoneta("Renault", "Kangoo")
+miFurgoneta = Furgoneta("Renault", "Kangoo")
 
 miFurgoneta.arrancar()
 
@@ -62,8 +64,12 @@ miFurgoneta.estado()
 
 print(miFurgoneta.carga(True))
 
-class BicicletaEñlectrica(VElectricos, Vehiculos):
 
+class BicicletaElectrica(VElectricos, Vehiculos):
     pass
 
-miBici= BicicletaElectrica()
+
+miBici = BicicletaElectrica("Orbe", "UHJ")
+
+# Uso de la función super:
+
