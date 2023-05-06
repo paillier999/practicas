@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="881cedfa-e251-44f5-b309-15e8b0837a8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fun_super.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejemplo_polimorfismo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadenas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exponencial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflejo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/herencia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
