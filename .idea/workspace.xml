@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="881cedfa-e251-44f5-b309-15e8b0837a8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejemplo_polimorfismo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadenas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exponencial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflejo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blanco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculos/calculos_generales.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funciones_matematicas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uso_funciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usomodulo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
